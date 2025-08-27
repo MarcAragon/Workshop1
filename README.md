@@ -27,7 +27,7 @@ Your goal is to:
 - Design a Dimensional Data Model (Star Schema).
 - Load the transformed data into a Data Warehouse (DW).
 - Build queries, KPIs, and visualizations directly from the DW.
-A candidate is considered HIRED if both scores are ≥ 7.
+- A candidate is considered HIRED if both scores are ≥ 7.
 You should apply this logic to get the correct information.
 
 
