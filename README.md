@@ -61,7 +61,7 @@ I decided to go with a snowflake schema to potentially optimize the storage effi
 
 - **Top countries hired:** It's important to take into account where is your most prominent sources of talent.
 
-  ### Results
+### Results
 
 ![Link](/Results/Top%2010%20Technologies%20hired.png)
 ![Link](/Results/Hires%20per%20year.png)
