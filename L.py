@@ -73,13 +73,14 @@ class Hires(Base):
 
     __tablename__ = 'hires'
 
-    date_id = Column(Date, nullable=False)
+    date_id = Column(Date,ForeignKey('dates.date_id'), nullable=False)
     code_challenge_score = Column(Integer, nullable=False)
     technical_interview_score = Column(Integer, nullable=False)
     candidate_id = Column(Integer, ForeignKey('candidates.candidate_id'), nullable=False)
     interview_id = Column(Integer, primary_key=True, autoincrement=False)
 
     candidates = relationship('Candidates')
+    dates = relationship('Dates')
 
 
 
