@@ -27,7 +27,7 @@ Your goal is to:
 - Design a Dimensional Data Model (Star Schema).
 - Load the transformed data into a Data Warehouse (DW).
 - Build queries, KPIs, and visualizations directly from the DW.
-A candidate is considered HIRED if both scores are ≥ 7.
+- A candidate is considered HIRED if both scores are ≥ 7.
 You should apply this logic to get the correct information.
 
 
@@ -42,7 +42,7 @@ You should apply this logic to get the correct information.
 
 ### DDM (Dimensional Data Model) implementation
 
-![Logo](https://ibb.co/9KBczDx)
+![Link](DDM_Diagram.jpg)
 
 I decided to go with a snowflake schema to potentially optimize the storage efficiency reducing the redundancy of the data and the loading times of some queries. I defined what would be my main entities, and what would be the data that describes those entities, I chose to define my main facts table as the Hires table, since is the object of the analysis proposed, and then, a secondary table that needs referencing was the Candidates table which included describing infomation as country and seniority. I separated all the secondary information in dimension tables and referenced it later on.
 
